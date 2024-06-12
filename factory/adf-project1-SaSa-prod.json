@@ -1,0 +1,9 @@
+{
+	"name": "adf-project1-SaSa-prod",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "937a51e7-630d-45a5-961c-830f1b8f7d94",
+		"tenantId": "6034b655-21a9-4376-aafc-fc9b96dc98d9"
+	}
+}
