@@ -1,0 +1,12 @@
+- task: AzureResourceManagerTemplateDeployment@3
+  inputs:
+    deploymentScope: 'Resource Group'
+    azureResourceManagerConnection: 'Free Trial(1)(6680b99f-2830-42c6-b696-95b4db1ceeca)'
+    subscriptionId: '6680b99f-2830-42c6-b696-95b4db1ceeca'
+    action: 'Create Or Update Resource Group'
+    resourceGroupName: 'Adls_sagarR2'
+    location: 'East US'
+    templateLocation: 'Linked artifact'
+    csmFile: 'adf-project1-SS/ARMTemplateForFactory.json'
+    csmParametersFile: 'adf-project1-SS/ARMTemplateParametersForFactory.json'
+    deploymentMode: 'Complete'
