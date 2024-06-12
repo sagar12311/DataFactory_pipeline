@@ -1,5 +1,5 @@
 {
-	"name": "copy transactional data",
+	"name": "copy transactional data v2",
 	"properties": {
 		"activities": [
 			{
