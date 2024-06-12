@@ -109,10 +109,7 @@
 				"typeProperties": {
 					"source": {
 						"type": "AzureSqlSource",
-						"sqlReaderQuery": {
-							"value": "@activity('Lookup1').output",
-							"type": "Expression"
-						},
+						"sqlReaderQuery": "select * from transaction_data where \"user_id\"  = 123",
 						"queryTimeout": "02:00:00",
 						"partitionOption": "None"
 					},

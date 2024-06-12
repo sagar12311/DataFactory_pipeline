@@ -10,6 +10,7 @@
 		"typeProperties": {
 			"location": {
 				"type": "AzureBlobFSLocation",
+				"fileName": "User 123",
 				"fileSystem": "processed"
 			},
 			"columnDelimiter": ",",
