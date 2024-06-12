@@ -15,9 +15,21 @@
 			"type": "secureString",
 			"metadata": "Secure string for 'password' of 'AzureSqlDatabase1'"
 		},
+		"GitHub1_credential": {
+			"type": "secureString",
+			"metadata": "Secure string for 'credential' of 'GitHub1'"
+		},
 		"AzureDataLakeStorageLS_properties_typeProperties_url": {
 			"type": "string",
 			"defaultValue": "https://newprojectadls1998.dfs.core.windows.net/"
+		},
+		"AzureKeyVault1usermanagd_properties_typeProperties_baseUrl": {
+			"type": "string",
+			"defaultValue": "https://project1-keyvaultss.vault.azure.net/"
+		},
+		"AzureKeyVault_LS_properties_typeProperties_baseUrl": {
+			"type": "string",
+			"defaultValue": "https://project1-keyvaultss.vault.azure.net/v"
 		},
 		"AzureSqlDatabase1_properties_typeProperties_server": {
 			"type": "string",
@@ -30,6 +42,10 @@
 		"AzureSqlDatabase1_properties_typeProperties_userName": {
 			"type": "string",
 			"defaultValue": "sagardemo"
+		},
+		"GitHub1_properties_typeProperties_username": {
+			"type": "string",
+			"defaultValue": "sagar12311"
 		},
 		"containerUri": {
 			"type": "string",
@@ -64,8 +80,14 @@
 					"AzureSqlDatabase1_password": {
 						"value": "[parameters('AzureSqlDatabase1_password')]"
 					},
+					"GitHub1_credential": {
+						"value": "[parameters('GitHub1_credential')]"
+					},
 					"AzureDataLakeStorageLS_properties_typeProperties_url": {
 						"value": "[parameters('AzureDataLakeStorageLS_properties_typeProperties_url')]"
+					},
+					"AzureKeyVault_LS_properties_typeProperties_baseUrl": {
+						"value": "[parameters('AzureKeyVault_LS_properties_typeProperties_baseUrl')]"
 					},
 					"AzureSqlDatabase1_properties_typeProperties_server": {
 						"value": "[parameters('AzureSqlDatabase1_properties_typeProperties_server')]"
@@ -75,6 +97,12 @@
 					},
 					"AzureSqlDatabase1_properties_typeProperties_userName": {
 						"value": "[parameters('AzureSqlDatabase1_properties_typeProperties_userName')]"
+					},
+					"GitHub1_properties_typeProperties_username": {
+						"value": "[parameters('GitHub1_properties_typeProperties_username')]"
+					},
+					"AzureKeyVault1usermanagd_properties_typeProperties_baseUrl": {
+						"value": "[parameters('AzureKeyVault1usermanagd_properties_typeProperties_baseUrl')]"
 					}
 				}
 			},

@@ -11,8 +11,17 @@
 		"AzureSqlDatabase1_password": {
 			"value": ""
 		},
+		"GitHub1_credential": {
+			"value": ""
+		},
 		"AzureDataLakeStorageLS_properties_typeProperties_url": {
 			"value": "https://newprojectadls1998.dfs.core.windows.net/"
+		},
+		"AzureKeyVault1usermanagd_properties_typeProperties_baseUrl": {
+			"value": "https://project1-keyvaultss.vault.azure.net/"
+		},
+		"AzureKeyVault_LS_properties_typeProperties_baseUrl": {
+			"value": "https://project1-keyvaultss.vault.azure.net/v"
 		},
 		"AzureSqlDatabase1_properties_typeProperties_server": {
 			"value": "sqlsever-project1.database.windows.net"
@@ -22,6 +31,9 @@
 		},
 		"AzureSqlDatabase1_properties_typeProperties_userName": {
 			"value": "sagardemo"
+		},
+		"GitHub1_properties_typeProperties_username": {
+			"value": "sagar12311"
 		}
 	}
 }
