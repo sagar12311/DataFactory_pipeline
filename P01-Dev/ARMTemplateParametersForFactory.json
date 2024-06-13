@@ -1,0 +1,30 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "P01-Dev"
+		},
+		"ADLS_LS1_accountKey": {
+			"value": ""
+		},
+		"SQL_DB_LS_password": {
+			"value": ""
+		},
+		"ADLS_LS1_properties_typeProperties_url": {
+			"value": "https://newprojectadls1998.dfs.core.windows.net/"
+		},
+		"AzureKeyVault1_properties_typeProperties_baseUrl": {
+			"value": "https://P01-Dev-KeyV.vault.azure.net/"
+		},
+		"SQL_DB_LS_properties_typeProperties_server": {
+			"value": "sqlsever-project1.database.windows.net"
+		},
+		"SQL_DB_LS_properties_typeProperties_database": {
+			"value": "sagardemo"
+		},
+		"SQL_DB_LS_properties_typeProperties_userName": {
+			"value": "sagardemo"
+		}
+	}
+}
