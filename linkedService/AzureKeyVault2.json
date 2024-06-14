@@ -6,7 +6,7 @@
 		"typeProperties": {
 			"baseUrl": "https://p01-dev-keyv.vault.azure.net/",
 			"credential": {
-				"referenceName": "credential1",
+				"referenceName": "credential2",
 				"type": "CredentialReference"
 			}
 		}
