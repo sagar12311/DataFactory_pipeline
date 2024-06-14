@@ -4,11 +4,7 @@
 		"annotations": [],
 		"type": "AzureKeyVault",
 		"typeProperties": {
-			"baseUrl": "https://P01-Dev-KeyV.vault.azure.net/",
-			"credential": {
-				"referenceName": "credential1",
-				"type": "CredentialReference"
-			}
+			"baseUrl": "https://P01-Dev-KeyV.vault.azure.net/"
 		}
 	}
 }
